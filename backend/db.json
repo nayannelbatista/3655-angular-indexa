@@ -12,7 +12,7 @@
     {
       "nome": "João",
       "telefone": "88 88888888",
-      "email": "maria@email.com",
+      "email": "joao@email.com",
       "aniversario": "06/01/1990",
       "redes": "",
       "observacoes": "",
@@ -26,6 +26,15 @@
       "aniversario": "",
       "redes": "",
       "observacoes": ""
+    },
+    {
+      "nome": "Angular 17",
+      "telefone": "12345678",
+      "email": "angular@email.com",
+      "aniversario": "",
+      "redes": "",
+      "observacoes": "",
+      "id": 4
     }
   ]
 }

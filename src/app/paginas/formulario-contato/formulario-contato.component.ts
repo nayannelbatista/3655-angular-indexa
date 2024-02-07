@@ -47,6 +47,14 @@ export class FormularioContatoComponent implements OnInit{
     })
   }
 
+  obterControle(nome: string): FormControl {
+    const control = this.contatoForm.get(nome)
+    if(!control) {
+      throw new Error('Controle de formulário não encontrado:' + nome)
+    }
+    return control as FormControl
+  }
+
   carregarContato() {
     const id = this.activatedRoute.snapshot.paramMap.get('id');
     if (id) {
